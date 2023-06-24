@@ -11,6 +11,6 @@ job('First_Maven_Project_Via_DSL') {
     }
     publishers {
         //archive the war file generated
-        archiveArtifacts '**/*.jar'
+        archiveArtifacts 'maven-samples/single-module/target/*.jar'
     }
 }
